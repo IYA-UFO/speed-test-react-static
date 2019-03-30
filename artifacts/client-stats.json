@@ -1,18 +1,18 @@
 {
   "errors": [],
   "warnings": [
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (470 KiB)\n      styles.c52310cb.css\n      templates/styles.c52310cb.js\n      templates/vendors~main.c20cce45.js\n      main.a04856ff.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (470 KiB)\n      styles.c52310cb.css\n      templates/styles.c52310cb.js\n      templates/vendors~main.c20cce45.js\n      main.5a7d4cb1.js\n"
   ],
   "version": "4.29.6",
-  "hash": "a04856ff578eace0bc39",
-  "time": 10690,
-  "builtAt": 1553933778945,
+  "hash": "5a7d4cb179bf56b34c04",
+  "time": 4856,
+  "builtAt": 1553935016986,
   "publicPath": "/",
   "outputPath": "/Users/admin/Desktop/speedBechTestReactStatic/dist",
   "assetsByChunkName": {
     "main": [
-      "main.a04856ff.js",
-      "main.a04856ff.js.map"
+      "main.5a7d4cb1.js",
+      "main.5a7d4cb1.js.map"
     ],
     "node_modules-react-static-lib-browser-components-Default404": [
       "templates/node_modules-react-static-lib-browser-components-Default404.5ac30a93.js",
@@ -30,8 +30,8 @@
   },
   "assets": [
     {
-      "name": "main.a04856ff.js",
-      "size": 9140,
+      "name": "main.5a7d4cb1.js",
+      "size": 9159,
       "chunks": [
         0
       ],
@@ -41,8 +41,8 @@
       "emitted": true
     },
     {
-      "name": "main.a04856ff.js.map",
-      "size": 22541,
+      "name": "main.5a7d4cb1.js.map",
+      "size": 22560,
       "chunks": [
         0
       ],
@@ -143,8 +143,8 @@
         "templates/styles.c52310cb.js.map",
         "templates/vendors~main.c20cce45.js",
         "templates/vendors~main.c20cce45.js.map",
-        "main.a04856ff.js",
-        "main.a04856ff.js.map"
+        "main.5a7d4cb1.js",
+        "main.5a7d4cb1.js.map"
       ],
       "children": {},
       "childAssets": {},
@@ -164,8 +164,8 @@
         "templates/styles.c52310cb.js.map",
         "templates/vendors~main.c20cce45.js",
         "templates/vendors~main.c20cce45.js.map",
-        "main.a04856ff.js",
-        "main.a04856ff.js.map"
+        "main.5a7d4cb1.js",
+        "main.5a7d4cb1.js.map"
       ],
       "children": {},
       "childAssets": {},
@@ -189,15 +189,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 9349,
+      "size": 9368,
       "names": [
         "main"
       ],
       "files": [
-        "main.a04856ff.js",
-        "main.a04856ff.js.map"
+        "main.5a7d4cb1.js",
+        "main.5a7d4cb1.js.map"
       ],
-      "hash": "c0c5a23c0aec06bb7b35",
+      "hash": "561667ba79877e5abecb",
       "siblings": [
         2,
         3
@@ -448,7 +448,7 @@
           "name": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "index": 65,
           "index2": 80,
-          "size": 7527,
+          "size": 7546,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -545,7 +545,7 @@
               "name": "/Users/admin/Desktop/speedBechTestReactStatic/src/App.js",
               "index": 70,
               "index2": 79,
-              "size": 6839,
+              "size": 6858,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -612,7 +612,7 @@
               ],
               "optimizationBailout": [],
               "depth": 3,
-              "source": "function _templateObject5(){var data=_taggedTemplateLiteral([\"\\n  text-align: center;\\n  margin: 20px 0;\\n  font-weight: bold;\\n\"]);_templateObject5=function _templateObject5(){return data;};return data;}function _templateObject4(){var data=_taggedTemplateLiteral([\"\\n  margin: 8px 4px;\\n\"]);_templateObject4=function _templateObject4(){return data;};return data;}function _templateObject3(){var data=_taggedTemplateLiteral([\"\\n  border: 1px white solid;\\n  padding: 5px;\\n  margin: 8px 4px;\\n\"]);_templateObject3=function _templateObject3(){return data;};return data;}function _templateObject2(){var data=_taggedTemplateLiteral([\"\\n  background-color: #1f1721;\\n  background: linear-gradient(-45deg, #260059, #660051);\\n  animation: \",\" 5s ease infinite;\\n  width: 100%;\\n  color: white;\\n  background-size: 400% 400%;\\n  max-width: 500px;\\n  margin: 0 auto;\\n  h1 {\\n    margin: 30px;\\n    text-align: center;\\n    font-weight: bold;\\n  }\\n\"]);_templateObject2=function _templateObject2(){return data;};return data;}function _templateObject(){var data=_taggedTemplateLiteral([\"\\n\\t0% {\\n\\t\\tbackground-position: 0% 50%\\n\\t}\\n\\t50% {\\n\\t\\tbackground-position: 100% 50%\\n\\t}\\n\\t100% {\\n\\t\\tbackground-position: 0% 50%\\n\\t}\\n\"]);_templateObject=function _templateObject(){return data;};return data;}function _taggedTemplateLiteral(strings,raw){if(!raw){raw=strings.slice(0);}return Object.freeze(Object.defineProperties(strings,{raw:{value:Object.freeze(raw)}}));}function _typeof(obj){if(typeof Symbol===\"function\"&&typeof Symbol.iterator===\"symbol\"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol===\"function\"&&obj.constructor===Symbol&&obj!==Symbol.prototype?\"symbol\":typeof obj;};}return _typeof(obj);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if(\"value\"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)===\"object\"||typeof call===\"function\")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!==\"function\"&&superClass!==null){throw new TypeError(\"Super expression must either be null or a function\");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}import React,{Component}from\"react\";import styled,{keyframes}from\"styled-components\";import\"./commonStyle/globalStyle.css\";var App=/*#__PURE__*/function(_Component){_inherits(App,_Component);function App(){_classCallCheck(this,App);return _possibleConstructorReturn(this,_getPrototypeOf(App).apply(this,arguments));}_createClass(App,[{key:\"render\",value:function render(){return React.createElement(Wrap,null,React.createElement(\"img\",{src:\"/img/750\\xD7900_320KB.jpg\",alt:\"\"}),React.createElement(\"h1\",null,\"React\"),React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_1.jpeg\",alt:\"\"})),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_2.jpeg\",alt:\"\"})),[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\"].map(function(num){return React.createElement(\"div\",{className:\"col-6\",key:num},React.createElement(ImgBox,null,React.createElement(\"img\",{src:\"http://lorempixel.com/400/270/nightlife/\".concat(num,\"/\"),alt:\"\"})));}),React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_3.jpeg\",alt:\"\"}),React.createElement(\"p\",null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"),React.createElement(\"img\",{className:\"mt-2\",src:\"/img/750\\xD7500_100KB_1.jpg\",alt:\"\"}),React.createElement(\"img\",{className:\"mt-2\",src:\"/img/750\\xD7500_100KB_2.jpg\",alt:\"\"}),React.createElement(End,null,\"END\")))));}}]);return App;}(Component);var Gradient=keyframes(_templateObject());var Wrap=styled.div(_templateObject2(),Gradient);var TextBox=styled.div(_templateObject3());var ImgBox=styled.div(_templateObject4());var End=styled.div(_templateObject5());export default App;"
+              "source": "function _templateObject5(){var data=_taggedTemplateLiteral([\"\\n  text-align: center;\\n  margin: 20px 0;\\n  font-weight: bold;\\n\"]);_templateObject5=function _templateObject5(){return data;};return data;}function _templateObject4(){var data=_taggedTemplateLiteral([\"\\n  margin: 8px 4px;\\n\"]);_templateObject4=function _templateObject4(){return data;};return data;}function _templateObject3(){var data=_taggedTemplateLiteral([\"\\n  border: 1px white solid;\\n  padding: 5px;\\n  margin: 8px 4px;\\n\"]);_templateObject3=function _templateObject3(){return data;};return data;}function _templateObject2(){var data=_taggedTemplateLiteral([\"\\n  background-color: #1f1721;\\n  background: linear-gradient(-45deg, #000, #560037, #000, #560037);\\n  animation: \",\" 5s ease infinite;\\n  width: 100%;\\n  color: white;\\n  background-size: 400% 400%;\\n  max-width: 500px;\\n  margin: 0 auto;\\n  h1 {\\n    margin: 30px;\\n    text-align: center;\\n    font-weight: bold;\\n  }\\n\"]);_templateObject2=function _templateObject2(){return data;};return data;}function _templateObject(){var data=_taggedTemplateLiteral([\"\\n\\t0% {\\n\\t\\tbackground-position: 0% 50%\\n\\t}\\n\\t50% {\\n\\t\\tbackground-position: 100% 50%\\n\\t}\\n\\t100% {\\n\\t\\tbackground-position: 0% 50%\\n\\t}\\n\"]);_templateObject=function _templateObject(){return data;};return data;}function _taggedTemplateLiteral(strings,raw){if(!raw){raw=strings.slice(0);}return Object.freeze(Object.defineProperties(strings,{raw:{value:Object.freeze(raw)}}));}function _typeof(obj){if(typeof Symbol===\"function\"&&typeof Symbol.iterator===\"symbol\"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol===\"function\"&&obj.constructor===Symbol&&obj!==Symbol.prototype?\"symbol\":typeof obj;};}return _typeof(obj);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if(\"value\"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)===\"object\"||typeof call===\"function\")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!==\"function\"&&superClass!==null){throw new TypeError(\"Super expression must either be null or a function\");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}import React,{Component}from\"react\";import styled,{keyframes}from\"styled-components\";import\"./commonStyle/globalStyle.css\";var App=/*#__PURE__*/function(_Component){_inherits(App,_Component);function App(){_classCallCheck(this,App);return _possibleConstructorReturn(this,_getPrototypeOf(App).apply(this,arguments));}_createClass(App,[{key:\"render\",value:function render(){return React.createElement(Wrap,null,React.createElement(\"img\",{src:\"/img/750\\xD7900_320KB.jpg\",alt:\"\"}),React.createElement(\"h1\",null,\"React Static\"),React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_1.jpeg\",alt:\"\"})),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_2.jpeg\",alt:\"\"})),[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\"].map(function(num){return React.createElement(\"div\",{className:\"col-6\",key:num},React.createElement(ImgBox,null,React.createElement(\"img\",{src:\"http://lorempixel.com/400/270/nightlife/\".concat(num,\"/\"),alt:\"\"})));}),React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_3.jpeg\",alt:\"\"}),React.createElement(\"p\",null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"),React.createElement(\"img\",{className:\"mt-2\",src:\"/img/750\\xD7500_100KB_1.jpg\",alt:\"\"}),React.createElement(\"img\",{className:\"mt-2\",src:\"/img/750\\xD7500_100KB_2.jpg\",alt:\"\"}),React.createElement(End,null,\"END\")))));}}]);return App;}(Component);var Gradient=keyframes(_templateObject());var Wrap=styled.div(_templateObject2(),Gradient);var TextBox=styled.div(_templateObject3());var ImgBox=styled.div(_templateObject4());var End=styled.div(_templateObject5());export default App;"
             }
           ],
           "filteredModules": 0
@@ -810,7 +810,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "./commonStyle/globalStyle.css",
-              "loc": "1:3496-3534"
+              "loc": "1:3508-3546"
             }
           ],
           "usedExports": false,
@@ -1259,7 +1259,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:3411-3447"
+              "loc": "1:3423-3459"
             },
             {
               "moduleId": 80,
@@ -1268,7 +1268,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3790-3795"
+              "loc": "1:3802-3807"
             },
             {
               "moduleId": 80,
@@ -1277,7 +1277,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3820-3825"
+              "loc": "1:3832-3837"
             },
             {
               "moduleId": 80,
@@ -1286,7 +1286,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3888-3893"
+              "loc": "1:3900-3905"
             },
             {
               "moduleId": 80,
@@ -1295,7 +1295,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3927-3932"
+              "loc": "1:3946-3951"
             },
             {
               "moduleId": 80,
@@ -1304,7 +1304,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:3977-3982"
+              "loc": "1:3996-4001"
             },
             {
               "moduleId": 80,
@@ -1313,7 +1313,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4021-4026"
+              "loc": "1:4040-4045"
             },
             {
               "moduleId": 80,
@@ -1322,7 +1322,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4068-4073"
+              "loc": "1:4087-4092"
             },
             {
               "moduleId": 80,
@@ -1331,7 +1331,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4139-4144"
+              "loc": "1:4158-4163"
             },
             {
               "moduleId": 80,
@@ -1340,7 +1340,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4185-4190"
+              "loc": "1:4204-4209"
             },
             {
               "moduleId": 80,
@@ -1349,7 +1349,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4346-4351"
+              "loc": "1:4365-4370"
             },
             {
               "moduleId": 80,
@@ -1358,7 +1358,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4392-4397"
+              "loc": "1:4411-4416"
             },
             {
               "moduleId": 80,
@@ -1367,7 +1367,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4553-4558"
+              "loc": "1:4572-4577"
             },
             {
               "moduleId": 80,
@@ -1376,7 +1376,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4599-4604"
+              "loc": "1:4618-4623"
             },
             {
               "moduleId": 80,
@@ -1385,7 +1385,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4760-4765"
+              "loc": "1:4779-4784"
             },
             {
               "moduleId": 80,
@@ -1394,7 +1394,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4806-4811"
+              "loc": "1:4825-4830"
             },
             {
               "moduleId": 80,
@@ -1403,7 +1403,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:4967-4972"
+              "loc": "1:4986-4991"
             },
             {
               "moduleId": 80,
@@ -1412,7 +1412,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5013-5018"
+              "loc": "1:5032-5037"
             },
             {
               "moduleId": 80,
@@ -1421,7 +1421,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5174-5179"
+              "loc": "1:5193-5198"
             },
             {
               "moduleId": 80,
@@ -1430,7 +1430,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5220-5225"
+              "loc": "1:5239-5244"
             },
             {
               "moduleId": 80,
@@ -1439,7 +1439,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5381-5386"
+              "loc": "1:5400-5405"
             },
             {
               "moduleId": 80,
@@ -1448,7 +1448,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5428-5433"
+              "loc": "1:5447-5452"
             },
             {
               "moduleId": 80,
@@ -1457,7 +1457,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5577-5582"
+              "loc": "1:5596-5601"
             },
             {
               "moduleId": 80,
@@ -1466,7 +1466,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5631-5636"
+              "loc": "1:5650-5655"
             },
             {
               "moduleId": 80,
@@ -1475,7 +1475,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5663-5668"
+              "loc": "1:5682-5687"
             },
             {
               "moduleId": 80,
@@ -1484,7 +1484,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5767-5772"
+              "loc": "1:5786-5791"
             },
             {
               "moduleId": 80,
@@ -1493,7 +1493,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5814-5819"
+              "loc": "1:5833-5838"
             },
             {
               "moduleId": 80,
@@ -1502,7 +1502,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:5884-5889"
+              "loc": "1:5903-5908"
             },
             {
               "moduleId": 80,
@@ -1511,7 +1511,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6362-6367"
+              "loc": "1:6381-6386"
             },
             {
               "moduleId": 80,
@@ -1520,7 +1520,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6449-6454"
+              "loc": "1:6468-6473"
             },
             {
               "moduleId": 80,
@@ -1529,7 +1529,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6536-6541"
+              "loc": "1:6555-6560"
             },
             {
               "moduleId": 80,
@@ -1538,7 +1538,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:6594-6603"
+              "loc": "1:6613-6622"
             },
             {
               "moduleId": 80,
@@ -1581,9 +1581,9 @@
           "chunks": [
             3
           ],
-          "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapApp.js",
-          "issuerId": 73,
-          "issuerName": "../lib/bootstrapApp.js",
+          "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "issuerId": 36,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 35,
@@ -1591,9 +1591,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 73,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapApp.js",
-              "name": "../lib/bootstrapApp.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -2029,9 +2029,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -2185,9 +2185,9 @@
           "chunks": [
             3
           ],
-          "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "issuerId": 66,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "issuerId": 36,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 35,
@@ -2195,9 +2195,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -2355,7 +2355,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "styled-components",
-              "loc": "1:3447-3496"
+              "loc": "1:3459-3508"
             },
             {
               "moduleId": 80,
@@ -2364,7 +2364,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "styled-components",
-              "loc": "1:6618-6627"
+              "loc": "1:6637-6646"
             },
             {
               "moduleId": 80,
@@ -2373,7 +2373,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "styled-components",
-              "loc": "1:6656-6662"
+              "loc": "1:6675-6681"
             },
             {
               "moduleId": 80,
@@ -2382,7 +2382,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "styled-components",
-              "loc": "1:6708-6714"
+              "loc": "1:6727-6733"
             },
             {
               "moduleId": 80,
@@ -2391,7 +2391,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "styled-components",
-              "loc": "1:6750-6756"
+              "loc": "1:6769-6775"
             },
             {
               "moduleId": 80,
@@ -2400,7 +2400,7 @@
               "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "styled-components",
-              "loc": "1:6789-6795"
+              "loc": "1:6808-6814"
             }
           ],
           "usedExports": [
@@ -2856,9 +2856,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -3148,9 +3148,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -3628,9 +3628,9 @@
           "chunks": [
             3
           ],
-          "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "issuerId": 66,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "issuerId": 36,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 35,
@@ -3638,9 +3638,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -3699,9 +3699,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -3765,9 +3765,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -3831,9 +3831,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -3907,9 +3907,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -3988,9 +3988,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -4074,9 +4074,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -4150,9 +4150,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -4776,9 +4776,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 73,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapApp.js",
-              "name": "../lib/bootstrapApp.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 1,
@@ -4890,9 +4890,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -4952,9 +4952,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5019,9 +5019,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5076,9 +5076,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5138,9 +5138,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5210,9 +5210,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5277,9 +5277,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5349,9 +5349,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5426,9 +5426,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5508,9 +5508,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5585,9 +5585,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5662,9 +5662,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5739,9 +5739,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5816,9 +5816,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5893,9 +5893,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -5965,9 +5965,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6037,9 +6037,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6114,9 +6114,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6191,9 +6191,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6268,9 +6268,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6335,9 +6335,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6402,9 +6402,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6459,9 +6459,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6524,9 +6524,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6596,9 +6596,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6673,9 +6673,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -6730,9 +6730,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 66,
-              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 36,
+              "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 20,
@@ -7865,7 +7865,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:3411-3447"
+          "loc": "1:3423-3459"
         },
         {
           "moduleId": 80,
@@ -7874,7 +7874,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3790-3795"
+          "loc": "1:3802-3807"
         },
         {
           "moduleId": 80,
@@ -7883,7 +7883,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3820-3825"
+          "loc": "1:3832-3837"
         },
         {
           "moduleId": 80,
@@ -7892,7 +7892,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3888-3893"
+          "loc": "1:3900-3905"
         },
         {
           "moduleId": 80,
@@ -7901,7 +7901,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3927-3932"
+          "loc": "1:3946-3951"
         },
         {
           "moduleId": 80,
@@ -7910,7 +7910,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:3977-3982"
+          "loc": "1:3996-4001"
         },
         {
           "moduleId": 80,
@@ -7919,7 +7919,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4021-4026"
+          "loc": "1:4040-4045"
         },
         {
           "moduleId": 80,
@@ -7928,7 +7928,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4068-4073"
+          "loc": "1:4087-4092"
         },
         {
           "moduleId": 80,
@@ -7937,7 +7937,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4139-4144"
+          "loc": "1:4158-4163"
         },
         {
           "moduleId": 80,
@@ -7946,7 +7946,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4185-4190"
+          "loc": "1:4204-4209"
         },
         {
           "moduleId": 80,
@@ -7955,7 +7955,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4346-4351"
+          "loc": "1:4365-4370"
         },
         {
           "moduleId": 80,
@@ -7964,7 +7964,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4392-4397"
+          "loc": "1:4411-4416"
         },
         {
           "moduleId": 80,
@@ -7973,7 +7973,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4553-4558"
+          "loc": "1:4572-4577"
         },
         {
           "moduleId": 80,
@@ -7982,7 +7982,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4599-4604"
+          "loc": "1:4618-4623"
         },
         {
           "moduleId": 80,
@@ -7991,7 +7991,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4760-4765"
+          "loc": "1:4779-4784"
         },
         {
           "moduleId": 80,
@@ -8000,7 +8000,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4806-4811"
+          "loc": "1:4825-4830"
         },
         {
           "moduleId": 80,
@@ -8009,7 +8009,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:4967-4972"
+          "loc": "1:4986-4991"
         },
         {
           "moduleId": 80,
@@ -8018,7 +8018,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5013-5018"
+          "loc": "1:5032-5037"
         },
         {
           "moduleId": 80,
@@ -8027,7 +8027,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5174-5179"
+          "loc": "1:5193-5198"
         },
         {
           "moduleId": 80,
@@ -8036,7 +8036,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5220-5225"
+          "loc": "1:5239-5244"
         },
         {
           "moduleId": 80,
@@ -8045,7 +8045,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5381-5386"
+          "loc": "1:5400-5405"
         },
         {
           "moduleId": 80,
@@ -8054,7 +8054,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5428-5433"
+          "loc": "1:5447-5452"
         },
         {
           "moduleId": 80,
@@ -8063,7 +8063,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5577-5582"
+          "loc": "1:5596-5601"
         },
         {
           "moduleId": 80,
@@ -8072,7 +8072,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5631-5636"
+          "loc": "1:5650-5655"
         },
         {
           "moduleId": 80,
@@ -8081,7 +8081,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5663-5668"
+          "loc": "1:5682-5687"
         },
         {
           "moduleId": 80,
@@ -8090,7 +8090,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5767-5772"
+          "loc": "1:5786-5791"
         },
         {
           "moduleId": 80,
@@ -8099,7 +8099,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5814-5819"
+          "loc": "1:5833-5838"
         },
         {
           "moduleId": 80,
@@ -8108,7 +8108,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:5884-5889"
+          "loc": "1:5903-5908"
         },
         {
           "moduleId": 80,
@@ -8117,7 +8117,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6362-6367"
+          "loc": "1:6381-6386"
         },
         {
           "moduleId": 80,
@@ -8126,7 +8126,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6449-6454"
+          "loc": "1:6468-6473"
         },
         {
           "moduleId": 80,
@@ -8135,7 +8135,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6536-6541"
+          "loc": "1:6555-6560"
         },
         {
           "moduleId": 80,
@@ -8144,7 +8144,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:6594-6603"
+          "loc": "1:6613-6622"
         },
         {
           "moduleId": 80,
@@ -8187,9 +8187,9 @@
       "chunks": [
         3
       ],
-      "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapApp.js",
-      "issuerId": 73,
-      "issuerName": "../lib/bootstrapApp.js",
+      "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+      "issuerId": 36,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 35,
@@ -8197,9 +8197,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 73,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapApp.js",
-          "name": "../lib/bootstrapApp.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -8635,9 +8635,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -8791,9 +8791,9 @@
       "chunks": [
         3
       ],
-      "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-      "issuerId": 66,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+      "issuerId": 36,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 35,
@@ -8801,9 +8801,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -8961,7 +8961,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "styled-components",
-          "loc": "1:3447-3496"
+          "loc": "1:3459-3508"
         },
         {
           "moduleId": 80,
@@ -8970,7 +8970,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "styled-components",
-          "loc": "1:6618-6627"
+          "loc": "1:6637-6646"
         },
         {
           "moduleId": 80,
@@ -8979,7 +8979,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "styled-components",
-          "loc": "1:6656-6662"
+          "loc": "1:6675-6681"
         },
         {
           "moduleId": 80,
@@ -8988,7 +8988,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "styled-components",
-          "loc": "1:6708-6714"
+          "loc": "1:6727-6733"
         },
         {
           "moduleId": 80,
@@ -8997,7 +8997,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "styled-components",
-          "loc": "1:6750-6756"
+          "loc": "1:6769-6775"
         },
         {
           "moduleId": 80,
@@ -9006,7 +9006,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "styled-components",
-          "loc": "1:6789-6795"
+          "loc": "1:6808-6814"
         }
       ],
       "usedExports": [
@@ -9462,9 +9462,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -9754,9 +9754,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -10297,9 +10297,9 @@
       "chunks": [
         3
       ],
-      "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-      "issuerId": 66,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+      "issuerId": 36,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 35,
@@ -10307,9 +10307,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -10368,9 +10368,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -10434,9 +10434,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -10500,9 +10500,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -10576,9 +10576,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -10657,9 +10657,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -10743,9 +10743,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -10819,9 +10819,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -11612,9 +11612,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 73,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapApp.js",
-          "name": "../lib/bootstrapApp.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 1,
@@ -11726,9 +11726,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -11788,9 +11788,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -11855,9 +11855,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -11912,9 +11912,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -11974,9 +11974,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12046,9 +12046,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12113,9 +12113,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12185,9 +12185,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12262,9 +12262,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12344,9 +12344,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12421,9 +12421,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12498,9 +12498,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12575,9 +12575,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12652,9 +12652,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12729,9 +12729,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12801,9 +12801,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12873,9 +12873,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -12950,9 +12950,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -13027,9 +13027,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -13104,9 +13104,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -13171,9 +13171,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -13238,9 +13238,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -13295,9 +13295,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -13360,9 +13360,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -13432,9 +13432,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -13509,9 +13509,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -13566,9 +13566,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 66,
-          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 36,
+          "identifier": "/Users/admin/Desktop/speedBechTestReactStatic/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/admin/Desktop/speedBechTestReactStatic/node_modules/react-static/lib/bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 20,
@@ -14397,7 +14397,7 @@
           "moduleName": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "./commonStyle/globalStyle.css",
-          "loc": "1:3496-3534"
+          "loc": "1:3508-3546"
         }
       ],
       "usedExports": false,
@@ -14486,7 +14486,7 @@
       "name": "/Users/admin/Desktop/speedBechTestReactStatic/src/index.js + 1 modules",
       "index": 65,
       "index2": 80,
-      "size": 7527,
+      "size": 7546,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -14583,7 +14583,7 @@
           "name": "/Users/admin/Desktop/speedBechTestReactStatic/src/App.js",
           "index": 70,
           "index2": 79,
-          "size": 6839,
+          "size": 6858,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -14650,7 +14650,7 @@
           ],
           "optimizationBailout": [],
           "depth": 3,
-          "source": "function _templateObject5(){var data=_taggedTemplateLiteral([\"\\n  text-align: center;\\n  margin: 20px 0;\\n  font-weight: bold;\\n\"]);_templateObject5=function _templateObject5(){return data;};return data;}function _templateObject4(){var data=_taggedTemplateLiteral([\"\\n  margin: 8px 4px;\\n\"]);_templateObject4=function _templateObject4(){return data;};return data;}function _templateObject3(){var data=_taggedTemplateLiteral([\"\\n  border: 1px white solid;\\n  padding: 5px;\\n  margin: 8px 4px;\\n\"]);_templateObject3=function _templateObject3(){return data;};return data;}function _templateObject2(){var data=_taggedTemplateLiteral([\"\\n  background-color: #1f1721;\\n  background: linear-gradient(-45deg, #260059, #660051);\\n  animation: \",\" 5s ease infinite;\\n  width: 100%;\\n  color: white;\\n  background-size: 400% 400%;\\n  max-width: 500px;\\n  margin: 0 auto;\\n  h1 {\\n    margin: 30px;\\n    text-align: center;\\n    font-weight: bold;\\n  }\\n\"]);_templateObject2=function _templateObject2(){return data;};return data;}function _templateObject(){var data=_taggedTemplateLiteral([\"\\n\\t0% {\\n\\t\\tbackground-position: 0% 50%\\n\\t}\\n\\t50% {\\n\\t\\tbackground-position: 100% 50%\\n\\t}\\n\\t100% {\\n\\t\\tbackground-position: 0% 50%\\n\\t}\\n\"]);_templateObject=function _templateObject(){return data;};return data;}function _taggedTemplateLiteral(strings,raw){if(!raw){raw=strings.slice(0);}return Object.freeze(Object.defineProperties(strings,{raw:{value:Object.freeze(raw)}}));}function _typeof(obj){if(typeof Symbol===\"function\"&&typeof Symbol.iterator===\"symbol\"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol===\"function\"&&obj.constructor===Symbol&&obj!==Symbol.prototype?\"symbol\":typeof obj;};}return _typeof(obj);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if(\"value\"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)===\"object\"||typeof call===\"function\")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!==\"function\"&&superClass!==null){throw new TypeError(\"Super expression must either be null or a function\");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}import React,{Component}from\"react\";import styled,{keyframes}from\"styled-components\";import\"./commonStyle/globalStyle.css\";var App=/*#__PURE__*/function(_Component){_inherits(App,_Component);function App(){_classCallCheck(this,App);return _possibleConstructorReturn(this,_getPrototypeOf(App).apply(this,arguments));}_createClass(App,[{key:\"render\",value:function render(){return React.createElement(Wrap,null,React.createElement(\"img\",{src:\"/img/750\\xD7900_320KB.jpg\",alt:\"\"}),React.createElement(\"h1\",null,\"React\"),React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_1.jpeg\",alt:\"\"})),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_2.jpeg\",alt:\"\"})),[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\"].map(function(num){return React.createElement(\"div\",{className:\"col-6\",key:num},React.createElement(ImgBox,null,React.createElement(\"img\",{src:\"http://lorempixel.com/400/270/nightlife/\".concat(num,\"/\"),alt:\"\"})));}),React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_3.jpeg\",alt:\"\"}),React.createElement(\"p\",null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"),React.createElement(\"img\",{className:\"mt-2\",src:\"/img/750\\xD7500_100KB_1.jpg\",alt:\"\"}),React.createElement(\"img\",{className:\"mt-2\",src:\"/img/750\\xD7500_100KB_2.jpg\",alt:\"\"}),React.createElement(End,null,\"END\")))));}}]);return App;}(Component);var Gradient=keyframes(_templateObject());var Wrap=styled.div(_templateObject2(),Gradient);var TextBox=styled.div(_templateObject3());var ImgBox=styled.div(_templateObject4());var End=styled.div(_templateObject5());export default App;"
+          "source": "function _templateObject5(){var data=_taggedTemplateLiteral([\"\\n  text-align: center;\\n  margin: 20px 0;\\n  font-weight: bold;\\n\"]);_templateObject5=function _templateObject5(){return data;};return data;}function _templateObject4(){var data=_taggedTemplateLiteral([\"\\n  margin: 8px 4px;\\n\"]);_templateObject4=function _templateObject4(){return data;};return data;}function _templateObject3(){var data=_taggedTemplateLiteral([\"\\n  border: 1px white solid;\\n  padding: 5px;\\n  margin: 8px 4px;\\n\"]);_templateObject3=function _templateObject3(){return data;};return data;}function _templateObject2(){var data=_taggedTemplateLiteral([\"\\n  background-color: #1f1721;\\n  background: linear-gradient(-45deg, #000, #560037, #000, #560037);\\n  animation: \",\" 5s ease infinite;\\n  width: 100%;\\n  color: white;\\n  background-size: 400% 400%;\\n  max-width: 500px;\\n  margin: 0 auto;\\n  h1 {\\n    margin: 30px;\\n    text-align: center;\\n    font-weight: bold;\\n  }\\n\"]);_templateObject2=function _templateObject2(){return data;};return data;}function _templateObject(){var data=_taggedTemplateLiteral([\"\\n\\t0% {\\n\\t\\tbackground-position: 0% 50%\\n\\t}\\n\\t50% {\\n\\t\\tbackground-position: 100% 50%\\n\\t}\\n\\t100% {\\n\\t\\tbackground-position: 0% 50%\\n\\t}\\n\"]);_templateObject=function _templateObject(){return data;};return data;}function _taggedTemplateLiteral(strings,raw){if(!raw){raw=strings.slice(0);}return Object.freeze(Object.defineProperties(strings,{raw:{value:Object.freeze(raw)}}));}function _typeof(obj){if(typeof Symbol===\"function\"&&typeof Symbol.iterator===\"symbol\"){_typeof=function _typeof(obj){return typeof obj;};}else{_typeof=function _typeof(obj){return obj&&typeof Symbol===\"function\"&&obj.constructor===Symbol&&obj!==Symbol.prototype?\"symbol\":typeof obj;};}return _typeof(obj);}function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if(\"value\"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}function _createClass(Constructor,protoProps,staticProps){if(protoProps)_defineProperties(Constructor.prototype,protoProps);if(staticProps)_defineProperties(Constructor,staticProps);return Constructor;}function _possibleConstructorReturn(self,call){if(call&&(_typeof(call)===\"object\"||typeof call===\"function\")){return call;}return _assertThisInitialized(self);}function _assertThisInitialized(self){if(self===void 0){throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");}return self;}function _getPrototypeOf(o){_getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function _getPrototypeOf(o){return o.__proto__||Object.getPrototypeOf(o);};return _getPrototypeOf(o);}function _inherits(subClass,superClass){if(typeof superClass!==\"function\"&&superClass!==null){throw new TypeError(\"Super expression must either be null or a function\");}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,writable:true,configurable:true}});if(superClass)_setPrototypeOf(subClass,superClass);}function _setPrototypeOf(o,p){_setPrototypeOf=Object.setPrototypeOf||function _setPrototypeOf(o,p){o.__proto__=p;return o;};return _setPrototypeOf(o,p);}import React,{Component}from\"react\";import styled,{keyframes}from\"styled-components\";import\"./commonStyle/globalStyle.css\";var App=/*#__PURE__*/function(_Component){_inherits(App,_Component);function App(){_classCallCheck(this,App);return _possibleConstructorReturn(this,_getPrototypeOf(App).apply(this,arguments));}_createClass(App,[{key:\"render\",value:function render(){return React.createElement(Wrap,null,React.createElement(\"img\",{src:\"/img/750\\xD7900_320KB.jpg\",alt:\"\"}),React.createElement(\"h1\",null,\"React Static\"),React.createElement(\"div\",{className:\"container\"},React.createElement(\"div\",{className:\"row\"},React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_1.jpeg\",alt:\"\"})),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-6\"},React.createElement(TextBox,null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\")),React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_2.jpeg\",alt:\"\"})),[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\"].map(function(num){return React.createElement(\"div\",{className:\"col-6\",key:num},React.createElement(ImgBox,null,React.createElement(\"img\",{src:\"http://lorempixel.com/400/270/nightlife/\".concat(num,\"/\"),alt:\"\"})));}),React.createElement(\"div\",{className:\"col-12\"},React.createElement(\"img\",{src:\"/img/750\\xD7200_50KB_3.jpeg\",alt:\"\"}),React.createElement(\"p\",null,\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"),React.createElement(\"img\",{className:\"mt-2\",src:\"/img/750\\xD7500_100KB_1.jpg\",alt:\"\"}),React.createElement(\"img\",{className:\"mt-2\",src:\"/img/750\\xD7500_100KB_2.jpg\",alt:\"\"}),React.createElement(End,null,\"END\")))));}}]);return App;}(Component);var Gradient=keyframes(_templateObject());var Wrap=styled.div(_templateObject2(),Gradient);var TextBox=styled.div(_templateObject3());var ImgBox=styled.div(_templateObject4());var End=styled.div(_templateObject5());export default App;"
         }
       ],
       "filteredModules": 0

@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <Wrap>
         <img src="/img/750×900_320KB.jpg" alt="" />
-        <h1>React</h1>
+        <h1>React Static</h1>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -96,7 +96,7 @@ const Gradient = keyframes`
 
 const Wrap = styled.div`
   background-color: #1f1721;
-  background: linear-gradient(-45deg, #260059, #660051);
+  background: linear-gradient(-45deg, #000, #560037, #000, #560037);
   animation: ${Gradient} 5s ease infinite;
   width: 100%;
   color: white;
